@@ -1,0 +1,23 @@
+.subTotal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    z-index:-1;
+    
+}
+
+.clickbutton{
+     margin-top: 20px;
+    width:50%;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.clickbutton:hover {
+     margin-top: 20px;
+     width:80%;
+    background: black;
+    border-color: black;
+}

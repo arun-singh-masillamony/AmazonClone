@@ -1,0 +1,12 @@
+.advertisement{
+    height: 100px;
+    width:100%;
+    flex:1;
+}
+.Checking__Header{
+    display: flex;
+
+}
+.Shopping_heading{
+    font-weight: 5px;
+}

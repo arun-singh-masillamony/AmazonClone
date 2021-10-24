@@ -1,0 +1,30 @@
+.checkingContainer{
+    display: flex;
+
+    }
+.ProductImg{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 200px; 
+    max-width: 100px;
+    object-fit: contain;
+
+}
+.productInfo{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.Remove__Button{
+    margin-top: 50px;
+    width:50%;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+.Checked_Price{
+    display: flex;
+    margin-top: 10px;
+}

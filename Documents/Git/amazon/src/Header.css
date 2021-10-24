@@ -1,0 +1,62 @@
+.Header{
+    display: flex;
+    align-items: center;
+    background-color:#232f3e;
+    position: sticky;
+    top: 0;
+    color: white;
+    z-index: 100;
+}
+.HeaderLogo{
+    width:80px;
+    object-fit: contain;
+    margin: 10px;
+    
+}
+.Header__SearchIcon{
+    padding: 5px;
+    background-color: orange;
+    height: 22px !important;
+}
+.Header__Search{
+    
+    display: flex;
+    align-items: center;
+    flex:1;
+    border-radius: 24px;
+}
+.Header__Search__Bar{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.Header__Nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Header__Nav__container{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Header__Nav__PointOne{
+    font-size: 10px;
+}
+
+.Header__Nav__Pointtwo{
+    font-size: 13px;
+    font-weight: 800;
+    color:white;
+}
+.Cart__Image{
+    color:white;
+    text-decoration: none;
+}
+.Header__cart__count{
+    padding: 10px;
+}
